@@ -1,0 +1,15 @@
+setup.py
+ipgeo_rel_data_crawlers/__init__.py
+ipgeo_rel_data_crawlers/items.py
+ipgeo_rel_data_crawlers/middlewares.py
+ipgeo_rel_data_crawlers/pipelines.py
+ipgeo_rel_data_crawlers/settings.py
+ipgeo_rel_data_crawlers/spiders/__init__.py
+ipgeo_rel_data_crawlers/spiders/organizations.py
+ipgeo_rel_data_crawlers/spiders/schools.py
+ipgeo_rel_data_crawlers/spiders/universities.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
