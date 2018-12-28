@@ -6,7 +6,8 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import requests
+import json
 
 class IpgeoRelDataCrawlersSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -51,7 +52,7 @@ class IpgeoRelDataCrawlersSpiderMiddleware(object):
         # Must return only requests (not items).
         for r in start_requests:
             # r.meta["proxy"] = "http://127.0.0.1:1080"
-            # spider.logger.info("设置了代理： http://127.0.0.1:1080")
+            # spider.logger.info("set proxy： http://127.0.0.1:1080")
             yield r
 
     def spider_opened(self, spider):
